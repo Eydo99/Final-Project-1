@@ -930,7 +930,7 @@ main .threebars .img img {
 /* mobile */
 @media (max-width:552px) {
     main .threebars {
-        height: 115vh;
+        height: 130vh;
     }
 
     main .threebars .content {
@@ -952,10 +952,9 @@ main .threebars .img img {
         font-size: 25px;
     }
 
-    main .threebars .content .block1 p,
-    main .threebars .content .block2 p,
-    main .threebars .content .block3 p {
+    main .threebars .content .block1 p, main .threebars .content .block2 p, main .threebars .content .block3 p {
         font-size: 12px;
+        width: 71%;
     }
 
     main .threebars .content .block1 p span,
