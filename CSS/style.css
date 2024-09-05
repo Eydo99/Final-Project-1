@@ -1,0 +1,4930 @@
+:root {
+    --color: #495980;
+}
+
+
+
+
+main {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: none;
+}
+
+/* ====================================================start header=================================================================================== */
+/* ====================================================start header=================================================================================== */
+/* ====================================================start header=================================================================================== */
+/* ====================================================start header=================================================================================== */
+
+main header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(55, 81, 126);
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* position: fixed; */
+
+
+}
+
+main header .Arsha {
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main header .Arsha h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    transition-duration: 0.5s;
+}
+
+main header .Arsha h1:hover {
+    color: #47b2e4;
+    transform: translate(2px, 2px);
+}
+
+main header .bar {
+    width: 80%;
+    height: 100%;
+    /* background-color: red; */
+    padding-right: 30px;
+
+
+
+}
+
+main header .bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
+    width: 95%;
+    /* background-color: red;
+   */
+
+
+
+}
+
+main header .bar ul li {
+
+    /* background-color: GREEN; */
+    list-style-type: none;
+
+    font-size: 16px;
+    margin: 8px;
+
+
+}
+
+main header .bar ul li a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+
+}
+
+main header .bar ul li a:hover {
+    color: #47b2e4;
+}
+
+main header .bar ul li select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+main header .bar ul li button {
+    width: 100%;
+    color: white;
+    background-color: rgb(71, 178, 228);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    transition-duration: 0.3s;
+
+
+
+}
+
+main header .bar ul li button:hover {
+    background-color: rgb(66, 159, 202);
+
+
+
+
+}
+
+/* =====================================================media of header==================================================== */
+/* =====================================================media of header==================================================== */
+/* =====================================================media of header==================================================== */
+/* =====================================================media of header==================================================== */
+/* above tablet below lap */
+@media (max-width:991px) {}
+
+
+
+
+
+
+/* tablet */
+@media (max-width:768px) {
+    main header .bar {
+        display: none;
+
+    }
+
+    main header .Arsha {
+        text-align: center;
+        width: 30%;
+        ;
+    }
+}
+
+/* mobile */
+@media (max-width:552px) {
+    main header .bar {
+        display: none;
+
+    }
+
+    main header .Arsha {
+        text-align: center;
+        width: 45%;
+        ;
+    }
+}
+
+
+/* =====================================================media of header==================================================== */
+/* =====================================================media of header==================================================== */
+/* =====================================================media of header==================================================== */
+/* =====================================================media of header==================================================== */
+
+
+
+/* ====================================================end header===================================================================================== */
+/* ====================================================end header===================================================================================== */
+/* ====================================================end header===================================================================================== */
+/* ====================================================end header===================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================start of home===================================================================== */
+/* ================================================================start of home===================================================================== */
+/* ================================================================start of home===================================================================== */
+/* ================================================================start of home===================================================================== */
+/* main .blank{
+    width: 100%;
+    height: 10vh; */
+
+main .home {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(55, 81, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .home .content {
+    width: 30%;
+    height: 90%;
+    /* background-color: red; */
+    /* margin-left: 20px; */
+    padding: 10px;
+}
+
+main .home .img {
+    width: 40%;
+    height: 90%;
+    /* background-color: blue; */
+}
+
+main .home .content h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    width: 80%;
+    text-align: left;
+    /* margin-left: 20px; */
+}
+
+main .home .content p {
+    color: #ccd2df;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-left: 20px; */
+    width: 80%;
+
+}
+
+main .home .content button {
+    color: white;
+    font-size: 15px;
+}
+
+main .home .content .button1 {
+    width: 35%;
+
+    background-color: rgb(71, 178, 228);
+    padding: 10px 14px;
+    border-radius: 20px;
+
+    border: none;
+    transition-duration: 0.3s;
+    /* margin-left: 20px; */
+}
+
+main .home .content .button1:hover {
+    background-color: rgb(66, 159, 202);
+
+}
+
+main .home .content .button2 {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 30px;
+    transition-duration: 0.5s;
+}
+
+main .home .content .button2 .fa-circle-play {
+    font-size: 22px;
+    padding-right: 5px;
+}
+
+main .home .content .button2:hover {
+    color: rgb(66, 159, 202);
+}
+
+main .home .img img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    animation-name: motionupanddown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+main .images {
+    width: 100%;
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f6f8;
+}
+
+main .images .img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    width: 7%;
+    height: 40%;
+    /* background-color: red; */
+}
+
+main .images img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes motionupanddown {
+    25% {
+        transform: translate(0px, -5px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    75% {
+        transform: translate(0px, 5px);
+
+    }
+}
+
+/*===========================================================media of home==================================================== */
+/*===========================================================media of home==================================================== */
+/*===========================================================media of home==================================================== */
+/*===========================================================media of home==================================================== */
+
+
+/* tablet */
+@media (max-width:768px) {
+    main .home .content {
+        width: 50%;
+    }
+
+    main .images .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
+        width: 9%;
+        height: 30%;
+        /* background-color: red; */
+    }
+
+}
+
+/* mobile */
+@media (max-width:552px) {
+    main .home {
+        height: 90vh;
+    }
+
+
+
+
+    main .home .content {
+        width: 90%;
+        height: 30vh;
+    }
+
+
+
+    main .home .img {
+        width: 90%;
+        height: 30vh;
+        order: -1;
+    }
+
+    main .home .content h1 {
+        font-size: 25px;
+    }
+
+    main .home .content p {
+        font-size: 15px;
+    }
+
+    main .home .content .button1 {
+        width: 40%;
+    }
+
+
+
+
+    main .home .content .button2 {
+        margin: 17px;
+    }
+
+    main .images .img4,
+    .img5,
+    .img6 {
+        width: 8%;
+        height: 50%;
+        /* background-color: red; */
+        display: none;
+    }
+
+    main .images .img1,
+    .img2,
+    .img3 {
+        width: 20%;
+        height: 40%;
+    }
+}
+
+
+
+/*===========================================================media of home==================================================== */
+/*===========================================================media of home==================================================== */
+/*===========================================================media of home==================================================== */
+/*===========================================================media of home==================================================== */
+
+
+
+/* ================================================================End of home===================================================================== */
+/* ================================================================End of home===================================================================== */
+/* ================================================================End of home===================================================================== */
+/* ================================================================End of home===================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================================start About Us============================================================== */
+/* ==================================================================start About Us============================================================== */
+/* ==================================================================start About Us============================================================== */
+/* ==================================================================start About Us============================================================== */
+/* ==================================================================start About Us============================================================== */
+
+main .Aboutus {
+    height: 45vh;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .Aboutus .head {
+    height: 20%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 1px;
+}
+
+main .Aboutus .head h1 {
+    text-align: center;
+    margin: 30px 0px;
+    color: var(--color);
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+
+
+
+}
+
+main .Aboutus .head h1:hover {
+    color: #47b2e4;
+
+
+}
+
+main .Aboutus .head h1:before {
+    content: "";
+    height: 2px;
+    width: 162px;
+    background-color: #b6b6b6;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+main .Aboutus .head h1:after {
+    content: "";
+    height: 3px;
+    width: 84px;
+    background-color: #47b2e4;
+    position: absolute;
+    bottom: -15px;
+    left: 47.5%;
+    border-radius: 20px;
+
+
+}
+
+main .Aboutus .content {
+    width: 95%;
+    height: 70%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+main .Aboutus .content .content1 {
+    width: 45%;
+    height: 90%;
+    /* background-color: red; */
+    padding: 1px;
+
+}
+
+main .Aboutus .content .content1 p {
+    font-size: 20px;
+    color: #7a7676;
+    margin: 20px 5px;
+
+
+}
+
+main .Aboutus .content .content1 p .fa-check {
+    color: #47b2e4;
+    font-size: 20px;
+}
+
+main .Aboutus .content .content2 {
+    width: 45%;
+    height: 90%;
+    /* background-color: green; */
+
+}
+
+main .Aboutus .content .content2 p {
+    font-size: 20px;
+    color: #7a7676;
+    margin: 20px 5px;
+}
+
+main .Aboutus .content .content2 button {
+    width: 40%;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 15px 3px;
+    font-weight: normal;
+    color: #47b2e4;
+    border: 2px solid #47b2e4;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+}
+
+main .Aboutus .content .content2 button .fa-arrow-right {
+    padding-left: 8px;
+}
+
+main .Aboutus .content .content2 button:hover {
+    color: white;
+    background-color: var(--color);
+    border: 2px solid var(--color);
+}
+
+/* =====================================================================Media about US======================================================= */
+/* =====================================================================Media about US======================================================= */
+/* =====================================================================Media about US======================================================= */
+/* =====================================================================Media about US======================================================= */
+/* =====================================================================Media about US========================================================= */
+
+
+
+
+/* tablet */
+@media (max-width:768px) {
+    main .Aboutus .content .content1 {
+        width: 45%;
+    }
+
+    main .Aboutus .content .content1 p {
+        font-size: 16px;
+
+    }
+
+    main .Aboutus .content .content2 {
+        width: 45%;
+    }
+
+    main .Aboutus .content .content2 p {
+        font-size: 17px;
+    }
+
+    main .Aboutus .content .content2 button {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    main .Aboutus .head h1:after {
+
+        left: 45%;
+
+    }
+}
+
+/* mobile */
+@media (max-width:552px) {
+    main .Aboutus {
+        height: 75vh;
+    }
+
+    main .Aboutus .content .content1 {
+        width: 85%;
+        height: 60%;
+    }
+
+    main .Aboutus .content .content1 p {
+        font-size: 14px;
+    }
+
+    main .Aboutus .content .content2 {
+        width: 85%;
+        height: 50%;
+    }
+
+    main .Aboutus .content .content2 p {
+        font-size: 14px;
+    }
+
+    main .Aboutus .content .content2 button {
+        width: 50%;
+        font-size: 15px;
+    }
+
+
+    main .Aboutus .head h1:after {
+
+        left: 39%;
+
+    }
+}
+
+
+
+/* =====================================================================Media about US======================================================= */
+/* =====================================================================Media about US======================================================= */
+/* =====================================================================Media about US======================================================= */
+/* =====================================================================Media about US======================================================= */
+/* =====================================================================Media about US========================================================= */
+
+
+
+
+/* ==================================================================End About Us============================================================== */
+/* ==================================================================End About Us============================================================== */
+/* ==================================================================End About Us============================================================== */
+/* ==================================================================End About Us============================================================== */
+/* ==================================================================End About Us============================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================start 3bars==================================================================== */
+/* ============================================================start 3bars==================================================================== */
+/* ============================================================start 3bars==================================================================== */
+/* ============================================================start 3bars==================================================================== */
+
+main .threebars {
+    height: 65vh;
+    width: 100%;
+    background-color: #f5f6f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+main .threebars .content {
+    width: 59%;
+    height: 90%;
+    /* background-color: blue; */
+    padding-left: 5px;
+
+
+
+}
+
+main .threebars .content h1 {
+    font-weight: normal;
+    color: var(--color);
+
+
+}
+
+main .threebars .content h1 span {
+    font-weight: bold;
+}
+
+main .threebars .content p {
+    font-size: 20px;
+    color: #797c8e;
+}
+
+main .threebars .content .block1,
+.block2,
+.block3 {
+    width: 95%;
+    height: 15%;
+    /* background-color: red; */
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    box-shadow: 5px 5px 5px gray, -5px -5px 10px gray;
+}
+
+main .threebars .content .block1 p,
+main .threebars .content .block2 p,
+main .threebars .content .block3 p {
+    color: var(--color);
+    font-size: 20px;
+    text-align: left;
+    transition-duration: 0.5s;
+}
+
+main .threebars .content .block1 p span,
+main .threebars .content .block2 p span,
+main .threebars .content .block3 p span {
+    color: #47b2e4;
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main .threebars .content .block1 p .fa-chevron-right,
+main .threebars .content .block2 p .fa-chevron-right,
+main .threebars .content .block3 p .fa-chevron-right {
+    position: absolute;
+    right: 30px;
+}
+
+main .threebars .content .block1 p:hover {
+    color: #47b2e4;
+}
+
+main .threebars .content .block2 p:hover {
+    color: #47b2e4;
+}
+
+main .threebars .content .block3 p:hover {
+    color: #47b2e4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .threebars .img {
+    width: 40%;
+    height: 90%;
+    /* background-color: green; */
+}
+
+main .threebars .img img {
+    width: 100%;
+    height: 100%;
+
+    animation-name: motionupanddown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* ===================================================================media 3bars========================================================= */
+/* ===================================================================media 3bars========================================================= */
+/* ===================================================================media 3bars========================================================= */
+/* ===================================================================media 3bars========================================================= */
+
+
+
+/* tablet */
+@media (max-width:768px) {
+    main .threebars {
+        height: 130vh;
+    }
+
+
+    main .threebars .content {
+        width: 90%;
+        height: 40%;
+    }
+
+    main .threebars .img {
+        width: 90%;
+        height: 50%;
+        order: -1;
+
+
+    }
+
+    main .threebars .content .block1 p,
+    main .threebars .content .block2 p,
+    main .threebars .content .block3 p {
+        font-size: 17px;
+    }
+
+    main .threebars .content .block1 p span,
+    main .threebars .content .block2 p span,
+    main .threebars .content .block3 p span {
+        font-size: 19px;
+    }
+}
+
+/* mobile */
+@media (max-width:552px) {
+    main .threebars {
+        height: 115vh;
+    }
+
+    main .threebars .content {
+        width: 90%;
+        height: 50%;
+    }
+
+    main .threebars .img {
+        width: 90%;
+        height: 40%;
+        order: -1;
+    }
+
+    main .threebars .content p {
+        font-size: 16px;
+    }
+
+    main .threebars .content h1 {
+        font-size: 25px;
+    }
+
+    main .threebars .content .block1 p,
+    main .threebars .content .block2 p,
+    main .threebars .content .block3 p {
+        font-size: 12px;
+    }
+
+    main .threebars .content .block1 p span,
+    main .threebars .content .block2 p span,
+    main .threebars .content .block3 p span {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+/* ===================================================================media 3bars========================================================= */
+/* ===================================================================media 3bars========================================================= */
+/* ===================================================================media 3bars========================================================= */
+/* ===================================================================media 3bars========================================================= */
+
+
+/* ============================================================END 3bars==================================================================== */
+/* ============================================================END 3bars==================================================================== */
+/* ============================================================END 3bars==================================================================== */
+/* ============================================================END 3bars==================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================start of survey=============================================================== */
+/* ============================================================start of survey=============================================================== */
+/* ============================================================start of survey=============================================================== */
+/* ============================================================start of survey=============================================================== */
+
+
+.survey {
+    width: 100%;
+    height: 75vh;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.survey .img {
+    width: 40%;
+    height: 90%;
+    background-color: blue;
+    animation-name: motionupanddown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.survey .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.survey .content {
+    width: 50%;
+    height: 90%;
+    /* background-color: green; */
+}
+
+.survey .content h1 {
+    color: #3a517e;
+    font-size: 32px;
+}
+
+.survey .content p {
+    font-size: 18px;
+    color: #887c88;
+}
+
+main .survey .content .block4,
+main .survey .content .block5,
+main .survey .content .block6,
+main .survey .content .block7 {
+
+    /* background-color: #47b2e4; */
+    width: 100%;
+    height: 12%;
+    position: relative;
+    margin: 20px;
+
+}
+
+main .survey .content .block4 p,
+main .survey .content .block5 p,
+main .survey .content .block6 p,
+main .survey .content .block7 p {
+    color: #37517e;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+main .survey .content .block4 p span,
+main .survey .content .block5 p span,
+main .survey .content .block6 p span,
+main .survey .content .block7 p span {
+    position: absolute;
+    left: 93%;
+    font-size: 13px;
+    font-weight: bold;
+
+
+
+
+}
+
+main .survey .content .block4 .fady,
+main .survey .content .block5 .fady,
+main .survey .content .block6 .fady,
+main .survey .content .block7 .fady {
+    width: 100%;
+    height: 15px;
+    background-color: #ebedf2;
+}
+
+main .survey .content .block4 .mlyan {
+    width: 100%;
+    height: 15px;
+    background-color: #37517e;
+}
+
+main .survey .content .block5 .mlyan {
+    width: 90%;
+    height: 15px;
+    background-color: #37517e;
+}
+
+main .survey .content .block6 .mlyan {
+    width: 75%;
+    height: 15PX;
+    background-color: #37517e;
+}
+
+main .survey .content .block7 .mlyan {
+    width: 55%;
+    height: 15PX;
+    background-color: #37517e;
+}
+
+/* ========================================================== media survey============================================================== */
+/* ========================================================== media survey============================================================== */
+/* ========================================================== media survey============================================================== */
+
+@media (max-width:768px) {
+    .survey {
+        height: 120vh;
+        /* background-color: red; */
+    }
+
+    main .survey .content .block4,
+    main .survey .content .block5,
+    main .survey .content .block6,
+    main .survey .content .block7 {
+        margin: 5px 0px;
+    }
+
+
+    .survey .img {
+        width: 90%;
+        height: 40%;
+    }
+
+    .survey .content {
+        width: 90%;
+        height: 60%;
+    }
+}
+
+
+/* mobile */
+@media (max-width:552px) {
+    .survey {
+        justify-content: space-around;
+    }
+
+    .survey .content {
+
+        margin: 20px 0px;
+    }
+
+
+
+    .survey .content h1 {
+
+        font-size: 27px;
+    }
+
+    .survey .content p {
+        font-size: 16px;
+    }
+
+
+    main .survey .content .block4,
+    main .survey .content .block5,
+    main .survey .content .block6,
+    main .survey .content .block7 {
+        margin: 2px;
+
+
+    }
+}
+
+
+
+/* ========================================================== media survey============================================================== */
+/* ========================================================== media survey============================================================== */
+/* ========================================================== media survey============================================================== */
+
+
+
+
+/* ============================================================End of survey=============================================================== */
+/* ============================================================End of survey=============================================================== */
+/* ============================================================End of survey=============================================================== */
+/* ============================================================End of survey=============================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================Start of services========================================================= */
+/* ==============================================================Start of services========================================================= */
+/* ==============================================================Start of services========================================================= */
+/* ==============================================================Start of services========================================================= */
+main .services {
+    width: 100%;
+    height: 80vh;
+    background-color: #f5f6f8;
+}
+
+main .services .head {
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    padding: 1px;
+
+}
+
+main .services .head h1 {
+    text-align: center;
+    margin: 10px 0px;
+    color: var(--color);
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+
+
+
+}
+
+main .services .head h1:hover {
+    color: #47b2e4;
+
+
+}
+
+main .services .head h1:before {
+    content: "";
+    height: 2px;
+    width: 162px;
+    background-color: #b6b6b6;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+main .services .head h1:after {
+    content: "";
+    height: 3px;
+    width: 84px;
+    background-color: #47b2e4;
+    position: absolute;
+    bottom: -15px;
+    left: 47.5%;
+    border-radius: 20px;
+
+
+}
+
+main .services .head p {
+    font-size: 18px;
+    color: #887c88;
+    text-align: center;
+    margin: 35px 0px;
+
+
+}
+
+main .services .blocks {
+    width: 100%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .services .blocks .blok1,
+main .services .blocks .blok2,
+main .services .blocks .blok3,
+main .services .blocks .blok4 {
+    width: 23%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px gray, -5px -5px 5px gray;
+
+}
+
+main .services .blocks .blok1 .icon,
+main .services .blocks .blok2 .icon,
+main .services .blocks .blok3 .icon,
+main .services .blocks .blok4 .icon {
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+main .services .blocks .blok1 .icon .fa-wave-square,
+main .services .blocks .blok2 .icon .fa-square,
+main .services .blocks .blok3 .icon .fa-calendar-days,
+main .services .blocks .blok4 .icon .fa-tower-broadcast {
+    font-size: 45px;
+    color: #47b2e4;
+
+    margin: 0px 20px;
+}
+
+main .services .blocks .blok1 .contentblok,
+main .services .blocks .blok2 .contentblok,
+main .services .blocks .blok3 .contentblok,
+main .services .blocks .blok4 .contentblok {
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+
+}
+
+main .services .blocks .blok1 .contentblok h2,
+main .services .blocks .blok2 .contentblok h2,
+main .services .blocks .blok3 .contentblok h2,
+main .services .blocks .blok4 .contentblok h2 {
+    color: var(--color);
+    margin: 0px 20px;
+    transition-duration: 0.5s;
+
+}
+
+main .services .blocks .blok1 .contentblok h2:hover {
+    color: #47b2e4;
+
+}
+
+main .services .blocks .blok2 .contentblok h2:hover {
+    color: #47b2e4;
+
+}
+
+main .services .blocks .blok3 .contentblok h2:hover {
+    color: #47b2e4;
+
+}
+
+main .services .blocks .blok4 .contentblok h2:hover {
+    color: #47b2e4;
+
+}
+
+main .services .blocks .blok1 .contentblok p,
+main .services .blocks .blok2 .contentblok p,
+main .services .blocks .blok3 .contentblok p,
+main .services .blocks .blok4 .contentblok p {
+    margin: 20px 20px;
+    font-size: 18px;
+    color: #887c88;
+}
+
+/* =====================================================Media survey=============================================================== */
+/* =====================================================Media survey=============================================================== */
+/* =====================================================Media survey=============================================================== */
+/* =====================================================Media survey=============================================================== */
+
+/* tablet */
+@media (max-width:768px) {
+    main .services {
+
+        height: 120vh;
+
+    }
+
+    main .services .blocks .blok1,
+    main .services .blocks .blok2,
+    main .services .blocks .blok3,
+    main .services .blocks .blok4 {
+        width: 45%;
+        height: 45%;
+    }
+
+    main .services .head h1:before {
+
+        width: 158px;
+
+
+    }
+
+    main .services .head h1:after {
+
+        width: 84px;
+
+
+        left: 45%;
+
+
+
+    }
+}
+
+
+
+
+/* mobile */
+@media (max-width:552px) {
+    main .services {
+
+        height: 200vh;
+
+    }
+
+    main .services .head h1 {
+
+        font-size: 30px;
+    }
+
+    main .services .blocks .blok1,
+    main .services .blocks .blok2,
+    main .services .blocks .blok3,
+    main .services .blocks .blok4 {
+        width: 90%;
+        height: 24%;
+        margin: 20px 0px;
+    }
+
+    main .services .head {
+        width: 100%;
+        height: 10%;
+    }
+
+    main .services .blocks .blok1 .icon .fa-wave-square,
+    main .services .blocks .blok2 .icon .fa-square,
+    main .services .blocks .blok3 .icon .fa-calendar-days,
+    main .services .blocks .blok4 .icon .fa-tower-broadcast {
+        font-size: 35px;
+
+    }
+
+
+    main .services .head h1:before {
+
+        width: 155px;
+
+
+    }
+
+    main .services .head h1:after {
+
+        width: 84px;
+
+
+        left: 40%;
+
+
+
+    }
+}
+
+
+
+/* =====================================================Media survey=============================================================== */
+/* =====================================================Media survey=============================================================== */
+/* =====================================================Media survey=============================================================== */
+/* =====================================================Media survey=============================================================== */
+
+
+
+
+
+
+/* ============================================================== End of services========================================================= */
+/* ==============================================================End of services========================================================= */
+/* ==============================================================End of services========================================================= */
+/* ==============================================================End of services========================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================start sectionservices====================================================== */
+/* ==========================================================start sectionservices====================================================== */
+/* ==========================================================start sectionservices====================================================== */
+/* ==========================================================start sectionservices====================================================== */
+
+
+main .sectionservices {
+    width: 100%;
+    height: 35vh;
+    background-color: var(--color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .sectionservices .content {
+    width: 55%;
+    height: 50%;
+    /* background-color: red; */
+}
+
+main .sectionservices .content h2 {
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+
+main .sectionservices .content h2:hover {
+    color: #47b2e4;
+
+
+}
+
+
+
+main .sectionservices .content p {
+    color: white;
+    /* font-weight: bold; */
+    font-size: 17px;
+
+
+}
+
+main .sectionservices .button {
+    width: 30%;
+    height: 60%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .sectionservices .button button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    width: 60%;
+    border-radius: 20px;
+    padding: 15px 5px;
+    margin: 0px 70px;
+    transition: 0.5s;
+
+
+}
+
+main .sectionservices .button button:hover {
+    color: #47b2e4;
+    border: 2px solid #47b2e4;
+}
+
+/* =================================================media sectionservices=================================================================== */
+/* =================================================media sectionservices=================================================================== */
+/* =================================================media sectionservices=================================================================== */
+/* =================================================media sectionservices=================================================================== */
+
+
+
+
+/* tablet */
+
+@media (max-width:768px) {
+    main .sectionservices .button {
+        width: 45%;
+    }
+
+    main .sectionservices .content {
+        width: 40%;
+        height: 60%;
+        padding-left: 10px;
+    }
+
+    main .sectionservices .content p {
+        font-size: 15px;
+    }
+}
+
+
+/* mobile */
+@media (max-width:552px) {
+    main .sectionservices {
+        width: 100%;
+        height: 50vh;
+    }
+
+
+    main .sectionservices .content {
+        width: 90%;
+        height: 40%;
+    }
+
+    main .sectionservices .button {
+        width: 80%;
+        height: 40%;
+    }
+
+
+
+
+
+}
+
+
+
+
+/* =================================================media sectionservices=================================================================== */
+/* =================================================media sectionservices=================================================================== */
+/* =================================================media sectionservices=================================================================== */
+/* =================================================media sectionservices=================================================================== */
+
+
+
+
+/* ==========================================================End sectionservices====================================================== */
+/* ==========================================================End sectionservices====================================================== */
+/* ==========================================================End sectionservices====================================================== */
+/* ==========================================================End sectionservices====================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== start portfolio================================================================== */
+/* =================================================== start portfolio================================================================== */
+/* =================================================== start portfolio================================================================== */
+
+main .portfolio {
+    width: 100%;
+    height: 190vh;
+    /* background-color: blue; */
+}
+
+main .portfolio .head {
+    width: 100%;
+    height: 15%;
+    /* background-color: rgb(255, 0, 0); */
+    padding: 1px;
+
+}
+
+main .portfolio .head h1 {
+    text-align: center;
+    margin: 40px 0px;
+    color: var(--color);
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+
+
+
+}
+
+main .portfolio .head h1:hover {
+    color: #47b2e4;
+
+
+}
+
+main .portfolio .head h1:before {
+    content: "";
+    height: 2px;
+    width: 190px;
+    background-color: #b6b6b6;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+main .portfolio .head h1:after {
+    content: "";
+    height: 3px;
+    width: 84px;
+    background-color: #47b2e4;
+    position: absolute;
+    bottom: -15px;
+    left: 47.5%;
+    border-radius: 20px;
+}
+
+main .portfolio .head p {
+    font-size: 18px;
+    color: #887c88;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+
+
+main .portfolio .content {
+    width: 100%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+
+}
+
+main .portfolio .content .bloc1,
+main .portfolio .content .bloc2,
+main .portfolio .content .bloc3 {
+    width: 29%;
+    height: 95%;
+    /* background-color: red; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* =============================================block1========================================================== */
+
+
+main .portfolio .content .bloc1 .img1 {
+    width: 95%;
+    /* height: 45%; */
+    background-color: aqua;
+    margin: 15px 0px;
+    background-image: url(../masonry-portfolio/masonry-portfolio-1.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+main .portfolio .content .bloc1 .img1:hover {
+    transform: scale(1);
+}
+
+main .portfolio .content .bloc1 .img1 .klam1,
+main .portfolio .content .bloc1 .img2 .klam2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 52, 52, 0.7);
+    transform: scale(0);
+    transition-duration: 1.5s;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+
+}
+
+main .portfolio .content .bloc1 .img1 .klam1 h1,
+main .portfolio .content .bloc1 .img2 .klam2 h1 {
+    color: white;
+
+}
+
+main .portfolio .content .bloc1 .img1 .klam1 p,
+main .portfolio .content .bloc1 .img2 .klam2 p {
+    color: white;
+    font-size: 29px;
+
+}
+
+main .portfolio .content .bloc1 .img1 .klam1 span,
+main .portfolio .content .bloc1 .img2 .klam2 span {
+    color: white;
+    font-size: 27px;
+
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+
+
+main .portfolio .content .bloc1 .img1:hover .klam1 {
+    transform: scale(1);
+}
+
+
+main .portfolio .content .bloc1 .img2 {
+    width: 90%;
+    height: 50%;
+    /* background-color: aqua; */
+    background-image: url(../masonry-portfolio/masonry-portfolio-6.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+main .portfolio .content .bloc1 .img2:hover {
+    transform: scale(1);
+}
+
+main .portfolio .content .bloc1 .img2:hover .klam2 {
+    transform: scale(1);
+}
+
+/* ========================================block2-======================================================= */
+
+
+main .portfolio .content .bloc2 .img3 {
+    width: 95%;
+    height: 25%;
+    /* background-color: aqua; */
+    margin: 10px 0px;
+    background-image: url(../masonry-portfolio/masonry-portfolio-2.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+main .portfolio .content .bloc2 .img3:hover {
+    transform: scale(1);
+}
+
+
+
+
+main .portfolio .content .bloc2 .img4 {
+    width: 95%;
+    height: 40%;
+    /* background-color: aqua; */
+    margin: 10px 0px;
+    background-image: url(../masonry-portfolio/masonry-portfolio-5.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+main .portfolio .content .bloc2 .img4:hover {
+    transform: scale(1);
+}
+
+
+
+main .portfolio .content .bloc2 .img5 {
+    width: 95%;
+    height: 23%;
+    /* background-color: aqua; */
+    margin: 10px 0px;
+    background-image: url(../masonry-portfolio/masonry-portfolio-9.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+main .portfolio .content .bloc2 .img5:hover {
+    transform: scale(1);
+}
+
+main .portfolio .content .bloc2 .img3 .klam3,
+main .portfolio .content .bloc2 .img4 .klam4,
+main .portfolio .content .bloc2 .img5 .klam5 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 52, 52, 0.7);
+    transform: scale(0);
+    transition-duration: 1.5s;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+
+}
+
+main .portfolio .content .bloc2 .img3 .klam3 h1,
+main .portfolio .content .bloc2 .img4 .klam4 h1 {
+    color: white;
+    font-size: 40px;
+
+}
+
+main .portfolio .content .bloc2 .img5 .klam5 h1 {
+    color: white;
+    font-size: 37px;
+
+}
+
+main .portfolio .content .bloc2 .img3 .klam3 p,
+main .portfolio .content .bloc2 .img4 .klam4 p {
+    color: white;
+    font-size: 33px;
+
+}
+
+main .portfolio .content .bloc2 .img5 .klam5 p {
+    color: white;
+    font-size: 25px;
+
+}
+
+main .portfolio .content .bloc2 .img3 .klam3 span,
+main .portfolio .content .bloc2 .img4 .klam4 span,
+main .portfolio .content .bloc2 .img5 .klam5 span {
+    color: white;
+    font-size: 25px;
+
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+main .portfolio .content .bloc2 .img3:hover .klam3 {
+    transform: scale(1);
+}
+
+main .portfolio .content .bloc2 .img4:hover .klam4 {
+    transform: scale(1);
+}
+
+main .portfolio .content .bloc2 .img5:hover .klam5 {
+    transform: scale(1);
+}
+
+/* =========================================================bloc3============================================================= */
+
+main .portfolio .content .bloc3 .img6 {
+    width: 95%;
+    height: 22%;
+    /* background-color: aqua; */
+    margin: 5px 0px;
+    background-image: url(../masonry-portfolio/masonry-portfolio-3.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+main .portfolio .content .bloc3 .img6:hover {
+    transform: scale(1);
+}
+
+main .portfolio .content .bloc3 .img7 {
+    width: 95%;
+    height: 22%;
+    /* background-color: aqua; */
+    margin: 5px 0px;
+    background-image: url(../masonry-portfolio/masonry-portfolio-4.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+main .portfolio .content .bloc3 .img7:hover {
+    transform: scale(1);
+}
+
+
+
+main .portfolio .content .bloc3 .img8 {
+    width: 95%;
+    height: 22%;
+    /* background-color: aqua; */
+    margin: 5px 0px;
+    background-image: url(../masonry-portfolio/masonry-portfolio-7.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+main .portfolio .content .bloc3 .img8:hover {
+    transform: scale(1);
+}
+
+
+main .portfolio .content .bloc3 .img9 {
+    width: 95%;
+    height: 22%;
+    /* background-color: aqua; */
+    margin: 5px 0px;
+    background-image: url(../masonry-portfolio/masonry-portfolio-8.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+main .portfolio .content .bloc3 .img9:hover {
+    transform: scale(1);
+}
+
+
+main .portfolio .content .bloc3 .img6 .klam6,
+main .portfolio .content .bloc3 .img7 .klam7,
+main .portfolio .content .bloc3 .img8 .klam8,
+main .portfolio .content .bloc3 .img9 .klam9 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 52, 52, 0.7);
+    transform: scale(0);
+    transition-duration: 1.5s;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+
+}
+
+main .portfolio .content .bloc3 .img6 .klam6 h1,
+main .portfolio .content .bloc3 .img7 .klam7 h1,
+main .portfolio .content .bloc3 .img8 .klam8 h1,
+main .portfolio .content .bloc3 .img9 .klam9 h1 {
+    color: white;
+    font-size: 40px;
+}
+
+
+main .portfolio .content .bloc3 .img6 .klam6 p,
+main .portfolio .content .bloc3 .img7 .klam7 p,
+main .portfolio .content .bloc3 .img9 .klam9 p {
+    color: white;
+    font-size: 30px;
+}
+
+main .portfolio .content .bloc3 .img8 .klam8 p {
+    font-size: 31px;
+    color: white;
+}
+
+main .portfolio .content .bloc3 .img6 .klam6 span,
+main .portfolio .content .bloc3 .img7 .klam7 span,
+main .portfolio .content .bloc3 .img8 .klam8 span,
+main .portfolio .content .bloc3 .img9 .klam9 span {
+    color: white;
+    font-size: 24px;
+
+    margin: auto;
+    margin-bottom: 9px;
+
+}
+
+main .portfolio .content .bloc3 .img6:hover .klam6 {
+    transform: scale(1);
+}
+
+main .portfolio .content .bloc3 .img7:hover .klam7 {
+    transform: scale(1);
+}
+
+main .portfolio .content .bloc3 .img8:hover .klam8 {
+    transform: scale(1);
+}
+
+main .portfolio .content .bloc3 .img9:hover .klam9 {
+    transform: scale(1);
+}
+
+
+
+
+/* ==================================================================Media of portfolio================================================= */
+/* ==================================================================Media of portfolio================================================= */
+/* ==================================================================Media of portfolio================================================= */
+/* ==================================================================Media of portfolio================================================= */
+
+/* tablet */
+
+@media (max-width:768px) {
+
+    main .portfolio .content .bloc1,
+    main .portfolio .content .bloc2,
+    main .portfolio .content .bloc3 {
+        width: 33%;
+    }
+
+    main .portfolio .content .bloc2 .img3 .klam3 h1,
+    main .portfolio .content .bloc2 .img4 .klam4 h1 {
+        color: white;
+        font-size: 33px;
+
+    }
+
+    main .portfolio .content .bloc2 .img5 .klam5 h1 {
+        color: white;
+        font-size: 30px;
+
+    }
+
+    main .portfolio .content .bloc2 .img3 .klam3 p,
+    main .portfolio .content .bloc2 .img4 .klam4 p {
+        color: white;
+        font-size: 25px;
+
+    }
+
+    main .portfolio .content .bloc2 .img5 .klam5 p {
+        color: white;
+        font-size: 20px;
+
+    }
+
+    main .portfolio .content .bloc3 .img6 .klam6 h1,
+    main .portfolio .content .bloc3 .img7 .klam7 h1,
+    main .portfolio .content .bloc3 .img8 .klam8 h1,
+    main .portfolio .content .bloc3 .img9 .klam9 h1 {
+        color: white;
+        font-size: 34px;
+    }
+
+    main .portfolio .content .bloc3 .img6 .klam6 p,
+    main .portfolio .content .bloc3 .img7 .klam7 p,
+    main .portfolio .content .bloc3 .img8 .klam8 p,
+    main .portfolio .content .bloc3 .img9 .klam9 p {
+        color: white;
+        font-size: 23px;
+    }
+
+
+    main .portfolio .head h1:before {
+
+        width: 190px;
+
+
+    }
+
+    main .portfolio .head h1:after {
+
+        width: 84px;
+
+
+        left: 45%;
+
+
+
+    }
+
+
+}
+
+
+
+/* mobile */
+@media (max-width:552px) {
+
+
+    main .portfolio {
+        width: 100%;
+        height: 380vh;
+    }
+
+
+
+    main .portfolio .head {
+
+        height: 6%;
+    }
+
+
+    main .portfolio .content{
+        height: 94%;
+    }
+
+
+    main .portfolio .content .bloc1{
+        width: 90%;
+        height: 30%;
+    }
+
+
+    main .portfolio .content .bloc2,
+    main .portfolio .content .bloc3 {
+        width: 90%;
+        height: 34%;
+        margin: 20px 0px;
+    }
+
+
+    main .portfolio .content .bloc1 .img1 {
+
+        margin: 10px;
+
+    }
+
+    main .portfolio .content .bloc1 .img2 {
+
+       
+        height: 60%;
+    }
+
+
+
+    main .portfolio .content .bloc2 .img3 {
+        width: 95%;
+        height: 25%;
+    }
+
+    main .portfolio .content .bloc2 .img4 {
+        height: 45%;
+
+    }
+    main .portfolio .content .bloc2 .img5 {
+        height: 24%;
+        display: block !important;
+
+    }
+
+
+
+
+    main .portfolio .content .bloc3 .img6{
+        display: block !important;
+        height: 25%;
+    }
+
+
+
+    main .portfolio .content .bloc3 .img7,
+    main .portfolio .content .bloc3 .img8,
+    main .portfolio .content .bloc3 .img9 {
+        height: 25%;
+    }
+
+
+    main .portfolio .content .bloc3 .img7 .klam7 p,
+    main .portfolio .content .bloc3 .img8 .klam8 p,
+    main .portfolio .content .bloc3 .img9 .klam9 p {
+        color: white;
+        font-size: 24px;
+    }
+
+
+
+    main .portfolio .content .bloc3 .img7 .klam7 span,
+    main .portfolio .content .bloc3 .img8 .klam8 span,
+    main .portfolio .content .bloc3 .img9 .klam9 span {
+
+        font-size: 25px;
+
+
+
+    }
+
+
+
+    main .portfolio .content .bloc1 .img1 .klam1 p,
+    main .portfolio .content .bloc1 .img2 .klam2 p {
+        color: white;
+        font-size: 19px;
+
+    }
+
+
+    main .portfolio .content .bloc2 .img3 .klam3 p,
+    main .portfolio .content .bloc2 .img4 .klam4 p {
+        color: white;
+        font-size: 28px;
+
+    }
+
+    main .portfolio .head h1:after {
+
+        width: 84px;
+
+
+        left: 39%;
+
+
+
+    }
+}
+
+
+
+/* ==================================================================Media of portfolio================================================= */
+/* ==================================================================Media of portfolio================================================= */
+/* ==================================================================Media of portfolio================================================= */
+/* ==================================================================Media of portfolio================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================End portfolio================================================================== */
+/* ===================================================End portfolio================================================================== */
+/* ===================================================End portfolio================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================start team================================================================= */
+/* ============================================================start team================================================================= */
+/* ============================================================start team================================================================= */
+main .team {
+
+    width: 100%;
+    height: 120vh;
+    /* background-color: red; */
+    margin-top: 30px;
+
+
+}
+
+main .team .head {
+    width: 100%;
+    height: 25%;
+    /* background-color: rgb(255, 0, 0); */
+    padding: 1px;
+
+}
+
+main .team .head h1 {
+    text-align: center;
+    margin: 40px 0px;
+    color: var(--color);
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+
+
+
+}
+
+main .team .head h1:hover {
+    color: #47b2e4;
+
+
+}
+
+main .team .head h1:before {
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #b6b6b6;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+main .team .head h1:after {
+    content: "";
+    height: 3px;
+    width: 40px;
+    background-color: #47b2e4;
+    position: absolute;
+    bottom: -15px;
+    left: 49%;
+    border-radius: 20px;
+}
+
+main .team .head p {
+    font-size: 18px;
+    color: #887c88;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+main .team .content {
+    height: 80%;
+    height: 75%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .team .content .walter {
+    width: 45%;
+    height: 35%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 4px 4px 10px gray, -4px -4px 10px gray;
+
+}
+
+
+main .team .content .walter .img,
+main .team .content .sarah .img,
+main .team .content .william .img,
+main .team .content .amanda .img {
+    width: 35%;
+    height: 90%;
+    /* background-color: green; */
+    border-radius: 50%;
+}
+
+main .team .content .walter .img img,
+main .team .content .sarah .img img,
+main .team .content .william .img img,
+main .team .content .amanda .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+main .team .content .walter .description,
+main .team .content .sarah .description,
+main .team .content .william .description,
+main .team .content .amanda .description {
+    width: 60%;
+    height: 90%;
+    /* background-color: green; */
+    padding: 1px;
+}
+
+main .team .content .walter .description .span1,
+main .team .content .sarah .description .span1,
+main .team .content .william .description .span1,
+main .team .content .amanda .description .span1 {
+    font-size: 22px;
+    color: var(--color);
+    font-weight: bold;
+    margin: 20px 10px;
+    transition-duration: 0.5s;
+
+}
+
+main .team .content .walter .description .span1:hover {
+    color: #47b2e4;
+}
+
+main .team .content .sarah .description .span1:hover {
+    color: #47b2e4;
+}
+
+main .team .content .william .description .span1:hover {
+    color: #47b2e4;
+}
+
+main .team .content .amanda .description .span1:hover {
+    color: #47b2e4;
+}
+
+main .team .content .walter .description .span2,
+main .team .content .sarah .description .span2,
+main .team .content .william .description .span2,
+main .team .content .amanda .description .span2 {
+    font-size: 18px;
+    color: #404040;
+    margin: 20px 10px;
+    position: relative;
+
+}
+
+main .team .content .walter .description .span2:before {
+    content: "";
+    height: 2px;
+    width: 80px;
+    background-color: #cfc9c9da;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+main .team .content .walter .description p,
+main .team .content .sarah .description p,
+main .team .content .william .description p,
+main .team .content .amanda .description p {
+    font-size: 18px;
+    color: #404040;
+    margin: 30px 5px;
+}
+
+main .team .content .walter .description .fa-twitter,
+main .team .content .sarah .description .fa-twitter,
+main .team .content .william .description .fa-twitter,
+main .team .content .amanda .description .fa-twitter {
+
+
+    font-size: 25px;
+    margin: 0px 10px;
+    color: #47b2e4;
+    transition: all 0.5s;
+}
+
+main .team .content .walter .description .fa-twitter:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .team .content .walter .description .fa-facebook,
+main .team .content .sarah .description .fa-facebook,
+main .team .content .william .description .fa-facebook,
+main .team .content .amanda .description .fa-facebook {
+
+
+    font-size: 25px;
+    margin: 0px 10px;
+    color: #47b2e4;
+    transition: all 0.5s;
+    ;
+}
+
+main .team .content .walter .description .fa-facebook:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .team .content .walter .description .fa-instagram,
+main .team .content .sarah .description .fa-instagram,
+main .team .content .william .description .fa-instagram,
+main .team .content .amanda .description .fa-instagram {
+
+
+    font-size: 25px;
+    margin: 0px 10px;
+    color: #47b2e4;
+    transition: all 0.5s;
+}
+
+main .team .content .walter .description .fa-instagram:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .team .content .walter .description .fa-linkedin,
+main .team .content .sarah .description .fa-linkedin,
+main .team .content .william .description .fa-linkedin,
+main .team .content .amanda .description .fa-linkedin {
+
+
+    font-size: 25px;
+    margin: 0px 10px;
+    color: #47b2e4;
+    transition: all 0.5s;
+}
+
+main .team .content .walter .description .fa-linkedin:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+
+
+
+main .team .content .sarah {
+    width: 45%;
+    height: 35%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 4px 4px 10px gray, -4px -4px 10px gray;
+
+}
+
+main .team .content .sarah .description .fa-twitter:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .team .content .sarah .description .fa-facebook:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+
+main .team .content .sarah .description .fa-instagram:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .team .content .sarah .description .fa-linkedin:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+
+main .team .content .sarah .description .span2:before {
+    content: "";
+    height: 2px;
+    width: 80px;
+    background-color: #cfc9c9da;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+main .team .content .william {
+    width: 45%;
+    height: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 4px 4px 10px gray, -4px -4px 10px gray;
+
+}
+
+main .team .content .william .description .fa-twitter:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .team .content .william .description .fa-facebook:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+
+main .team .content .william .description .fa-instagram:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .team .content .william .description .fa-linkedin:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+
+main .team .content .william .description .span2:before {
+    content: "";
+    height: 2px;
+    width: 80px;
+    background-color: #cfc9c9da;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+
+main .team .content .amanda {
+    width: 45%;
+    height: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 4px 4px 10px gray, -4px -4px 10px gray;
+
+
+}
+
+main .team .content .amanda .description .fa-twitter:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .team .content .amanda .description .fa-facebook:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+
+main .team .content .amanda .description .fa-instagram:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main .team .content .amanda .description .fa-linkedin:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+
+main .team .content .amanda .description .span2:before {
+    content: "";
+    height: 2px;
+    width: 80px;
+    background-color: #cfc9c9da;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+
+
+/* =======================================================================Team Media===================================================== */
+/* =======================================================================Team Media===================================================== */
+/* =======================================================================Team Media===================================================== */
+
+/* tablet */
+
+@media (max-width:768px) {
+
+    main .team .content .walter,
+    main .team .content .amanda,
+    main .team .content .william,
+    main .team .content .sarah {
+        width: 49%;
+        height: 40%;
+
+
+
+    }
+
+    main .team .head h1:after {
+
+        width: 50px;
+
+
+        left: 47%;
+
+
+
+    }
+}
+
+
+
+/* mobile */
+
+
+@media (max-width:552px) {
+
+
+    main .team {
+        width: 100%;
+        height: 170vh;
+    }
+
+    main .team .head {
+        height: 15%;
+    }
+
+
+
+    main .team .content .walter,
+    main .team .content .amanda,
+    main .team .content .william,
+    main .team .content .sarah {
+        width: 95%;
+        height: 25%;
+        margin: 10px 0px;
+    }
+
+    main .team .head h1:after {
+
+        width: 50px;
+
+
+        left: 44%;
+
+
+
+    }
+}
+
+
+
+
+/* =======================================================================Team Media===================================================== */
+/* =======================================================================Team Media===================================================== */
+/* =======================================================================Team Media===================================================== */
+
+
+
+/* ============================================================End team================================================================= */
+/* ============================================================End team================================================================= */
+/* ============================================================End team================================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================================Start pricing=============================================== */
+/* =============================================================================Start pricing=============================================== */
+/* =============================================================================Start pricing=============================================== */
+/* =============================================================================Start pricing=============================================== */
+
+
+
+main .pricing {
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f6f8;
+    /* background-color: red; */
+
+
+
+}
+
+main .pricing .head {
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    padding: 1px;
+
+}
+
+main .pricing .head h1 {
+    text-align: center;
+    margin: 30px 0px;
+    color: var(--color);
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+
+
+
+}
+
+main .pricing .head h1:hover {
+    color: #47b2e4;
+
+
+}
+
+main .pricing .head h1:before {
+    content: "";
+    height: 2px;
+    width: 145px;
+    background-color: #b6b6b6;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+main .pricing .head h1:after {
+    content: "";
+    height: 3px;
+    width: 77px;
+    background-color: #47b2e4;
+    position: absolute;
+    bottom: -15px;
+    left: 48%;
+    border-radius: 20px;
+}
+
+main .pricing .head p {
+    font-size: 18px;
+    color: #887c88;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+main .pricing .content {
+    width: 100%;
+    height: 80%;
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0px 30px; */
+}
+
+
+main .pricing .content .card1,
+main .pricing .content .card2,
+main .pricing .content .card3 {
+    width: 32%;
+    height: 90%;
+    /* background-color: aqua; */
+    /* padding: 30px; */
+    box-shadow: 3px 3px 10px gray, -3px -3px 10px gray;
+    border-top: 2px solid white;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+
+
+main .pricing .content .card1:hover {
+    border-top: 8px solid #47b2e4;
+}
+
+main .pricing .content .card2:hover {
+    border-top: 8px solid #47b2e4;
+}
+
+main .pricing .content .card3:hover {
+    border-top: 8px solid #47b2e4;
+}
+
+main .pricing .content .card1 h3,
+main .pricing .content .card2 h3,
+main .pricing .content .card3 h3 {
+    color: #37517e;
+    margin: 30px 40px;
+
+}
+
+main .pricing .content .card1 p,
+main .pricing .content .card2 p,
+main .pricing .content .card3 p {
+    color: #797c8e;
+    margin: 20px 40px;
+    font-size: 20px;
+
+}
+
+
+main .pricing .content .card1 span,
+main .pricing .content .card2 span,
+main .pricing .content .card3 span {
+    font-size: 50px;
+    color: #47b2e4;
+}
+
+
+main .pricing .content .card1 li,
+main .pricing .content .card2 li,
+main .pricing .content .card3 li {
+    list-style-type: none;
+    font-size: 18px;
+    margin: 35px 0px;
+    color: #444444;
+}
+
+main .pricing .content .card1 li .fa-check,
+main .pricing .content .card2 li .fa-check,
+main .pricing .content .card3 li .fa-check {
+    color: green;
+}
+
+main .pricing .content .card1 .wrong {
+    text-decoration: line-through;
+    color: #b1a6b6;
+}
+
+main .pricing .content .card1 button,
+main .pricing .content .card2 button,
+main .pricing .content .card3 button {
+    background-color: transparent;
+    color: #47b2e4;
+    border: 2px solid #47b2e4;
+    border-radius: 30px;
+    padding: 20px 20px;
+    width: 60%;
+    margin: 10px 30px;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+
+main .pricing .content .card1 button:hover {
+    color: white;
+    background-color: #47b2e4;
+}
+
+main .pricing .content .card2 button:hover {
+    color: white;
+    background-color: #47b2e4;
+}
+
+main .pricing .content .card3 button:hover {
+    color: white;
+    background-color: #47b2e4;
+}
+
+
+
+
+/* ===========================================================================media pricing================================================= */
+/* ===========================================================================media pricing================================================= */
+/* ===========================================================================media pricing================================================= */
+/* ===========================================================================media pricing================================================= */
+
+/* tablet */
+
+@media (max-width:768px) {
+
+
+    main .pricing {
+
+        height: 180vh;
+    }
+
+    main .pricing .content .card1,
+    main .pricing .content .card2,
+    main .pricing .content .card3 {
+        width: 45%;
+        height: 45%;
+    }
+
+    main .pricing .head {
+        width: 100%;
+        height: 10%;
+
+    }
+
+    main .pricing .content {
+        width: 100%;
+        height: 90%;
+    }
+
+    main .pricing .head h1:after {
+
+        width: 67px;
+
+
+        left: 47%;
+
+
+
+    }
+}
+
+
+
+/* mobile */
+
+
+@media (max-width:552px) {
+    main .pricing {
+
+        height: 240vh;
+    }
+
+
+    main .pricing .content .card1,
+    main .pricing .content .card2,
+    main .pricing .content .card3 {
+        width: 90%;
+        height: 32%;
+        margin: 10px 0px;
+    }
+
+    main .pricing .head {
+        width: 100%;
+        height: 10%;
+
+    }
+
+    main .pricing .head h1:after {
+
+        width: 67px;
+
+
+        left: 43%;
+
+
+
+    }
+
+
+}
+
+
+
+
+/* ===========================================================================media pricing================================================= */
+/* ===========================================================================media pricing================================================= */
+/* ===========================================================================media pricing================================================= */
+/* ===========================================================================media pricing================================================= */
+
+
+
+
+/* =============================================================================End pricing=============================================== */
+/* =============================================================================End pricing=============================================== */
+/* =============================================================================End pricing=============================================== */
+/* =============================================================================End pricing=============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================================start testimonials====================================================== */
+/* =================================================================start testimonials====================================================== */
+/* =================================================================start testimonials====================================================== */
+
+main .testimonials {
+    width: 100%;
+    height: 80vh;
+    /* background-color: red; */
+}
+
+
+main .testimonials .head {
+    width: 100%;
+    height: 20%;
+    padding: 1px;
+    /* background-color: blue; */
+}
+
+main .testimonials .head h1 {
+    text-align: center;
+    margin: 20px 0px;
+    color: var(--color);
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+
+
+
+
+}
+
+main .testimonials .head h1:hover {
+    color: #47b2e4;
+
+
+}
+
+main .testimonials .head h1:before {
+    content: "";
+    height: 2px;
+    width: 250px;
+    background-color: #b6b6b6;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+
+}
+
+main .testimonials .head h1:after {
+    content: "";
+    height: 3px;
+    width: 125px;
+    background-color: #47b2e4;
+    position: absolute;
+    bottom: -15px;
+    left: 46%;
+    border-radius: 20px;
+}
+
+main .testimonials .head p {
+    font-size: 18px;
+    color: #887c88;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+main .testimonials .staff {
+    width: 100%;
+    height: 60%;
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .testimonials .staff .memb1,
+main .testimonials .staff .memb2,
+main .testimonials .staff .memb3,
+main .testimonials .staff .memb4,
+main .testimonials .staff .memb5 {
+    width: 19%;
+    height: 95%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .testimonials .staff .memb1 .img,
+main .testimonials .staff .memb2 .img,
+main .testimonials .staff .memb3 .img,
+main .testimonials .staff .memb4 .img,
+main .testimonials .staff .memb5 .img {
+    width: 80%;
+    height: 40%;
+    /* background-color: tomato; */
+    margin: 10px 0px;
+    border-radius: 50%;
+
+}
+
+main .testimonials .staff .memb1 .img img,
+main .testimonials .staff .memb2 .img img,
+main .testimonials .staff .memb3 .img img,
+main .testimonials .staff .memb4 .img img,
+main .testimonials .staff .memb5 .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+main .testimonials .staff .memb1 .description,
+main .testimonials .staff .memb2 .description,
+main .testimonials .staff .memb3 .description,
+main .testimonials .staff .memb4 .description,
+main .testimonials .staff .memb5 .description {
+    width: 80%;
+    height: 50%;
+    /* background-color: cornflowerblue; */
+    text-align: center;
+}
+
+main .testimonials .staff .memb1 .description h2,
+main .testimonials .staff .memb2 .description h2,
+main .testimonials .staff .memb3 .description h2,
+main .testimonials .staff .memb4 .description h2,
+main .testimonials .staff .memb5 .description h2 {
+    color: #37517e;
+    transition-duration: 0.5s;
+
+}
+
+main .testimonials .staff .memb1 .description h2:hover {
+    color: #47b2e4;
+}
+
+main .testimonials .staff .memb2 .description h2:hover {
+    color: #47b2e4;
+}
+
+main .testimonials .staff .memb3 .description h2:hover {
+    color: #47b2e4;
+}
+
+main .testimonials .staff .memb4 .description h2:hover {
+    color: #47b2e4;
+}
+
+main .testimonials .staff .memb5 .description h2:hover {
+    color: #47b2e4;
+}
+
+main .testimonials .staff .memb1 .description p,
+main .testimonials .staff .memb2 .description p,
+main .testimonials .staff .memb3 .description p,
+main .testimonials .staff .memb4 .description p,
+main .testimonials .staff .memb5 .description p {
+    font-size: 20px;
+    color: #969696;
+}
+
+main .testimonials .staff .memb1 .description .fa-star,
+main .testimonials .staff .memb2 .description .fa-star,
+main .testimonials .staff .memb3 .description .fa-star,
+main .testimonials .staff .memb4 .description .fa-star,
+main .testimonials .staff .memb5 .description .fa-star {
+    font-size: 22px;
+    color: gold;
+}
+
+main .testimonials .slogan {
+    width: 100%;
+    height: 18%;
+    /* background-color: violet; */
+    text-align: center;
+}
+
+
+main .testimonials .slogan p {
+    font-size: 22px;
+    color: #777777;
+
+}
+
+main .testimonials .slogan p span {
+    font-size: 50px;
+    color: #47b2e4
+}
+
+
+
+
+/* ===============================================================Media testimonials================================================= */
+/* ===============================================================Media testimonials================================================= */
+/* ===============================================================Media testimonials================================================= */
+
+
+/* tablet */
+
+@media (max-width:768px) {
+
+
+
+    main .testimonials {
+        width: 100%;
+        height: 145vh;
+    }
+
+    main .testimonials .head {
+        width: 100%;
+        height: 10%;
+    }
+
+
+    main .testimonials .staff {
+
+        height: 72%;
+    }
+
+    main .testimonials .staff .memb1,
+    main .testimonials .staff .memb2,
+    main .testimonials .staff .memb3,
+    main .testimonials .staff .memb4,
+    main .testimonials .staff .memb5 {
+        width: 32%;
+        height: 45%;
+
+
+    }
+
+    main .testimonials .slogan {
+        width: 100%;
+        height: 15%;
+
+    }
+
+    main .testimonials .head h1:after {
+
+        width: 120px;
+
+
+        left: 41%;
+
+
+
+    }
+}
+
+/* mobile */
+
+
+@media (max-width:552px) {
+
+    main .testimonials {
+        width: 100%;
+        height: 225vh;
+    }
+
+    main .testimonials .head {
+        width: 100%;
+        height: 8%;
+    }
+
+    main .testimonials .staff {
+
+        height: 78%;
+    }
+
+
+
+
+    main .testimonials .staff .memb1,
+    main .testimonials .staff .memb2,
+    main .testimonials .staff .memb3,
+    main .testimonials .staff .memb4,
+    main .testimonials .staff .memb5 {
+        width: 49%;
+        height: 30%;
+    }
+
+    main .testimonials .slogan {
+        width: 100%;
+        height: 12%;
+    }
+
+    main .testimonials .head h1:after {
+
+        width: 120px;
+
+
+        left: 35%;
+
+
+
+    }
+
+
+}
+
+
+
+
+
+
+/* ===============================================================Media testimonials================================================= */
+/* ===============================================================Media testimonials================================================= */
+/* ===============================================================Media testimonials================================================= */
+
+
+
+/* =================================================================End testimonials====================================================== */
+/* =================================================================End testimonials====================================================== */
+/* =================================================================End testimonials====================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================================================================start frequently======================================================== */
+/* ====================================================================start frequently======================================================== */
+/* ====================================================================start frequently======================================================== */
+
+
+main .frequently {
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f6f8;
+    margin-top: 20px;
+
+
+
+}
+
+main .frequently .head {
+    height: 20%;
+    width: 100%;
+    /* background-color: green; */
+    padding: 1px;
+}
+
+
+main .frequently .head h1 {
+    text-align: center;
+    margin: 20px 0px;
+    color: var(--color);
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+
+
+
+
+}
+
+main .frequently .head h1:hover {
+    color: #47b2e4;
+
+
+}
+
+main .frequently .head h1:before {
+    content: "";
+    height: 2px;
+    width: 150px;
+    background-color: #b6b6b6;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+    left: 46%;
+
+}
+
+main .frequently .head h1:after {
+    content: "";
+    height: 3px;
+    width: 76px;
+    background-color: #47b2e4;
+    position: absolute;
+    bottom: -15px;
+    left: 48%;
+    border-radius: 20px;
+}
+
+main .frequently .head p {
+    font-size: 18px;
+    color: #887c88;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+
+main .frequently .content {
+    width: 100%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .frequently .content .q1,
+main .frequently .content .q2,
+main .frequently .content .q3,
+main .frequently .content .q4,
+main .frequently .content .q5,
+main .frequently .content .q6 {
+    width: 80%;
+    height: 13%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    position: relative;
+    box-shadow: 3px 3px 10px gray, -3px -3px 10px gray;
+}
+
+
+main .frequently .content .q1 p,
+main .frequently .content .q2 p,
+main .frequently .content .q3 p,
+main .frequently .content .q4 p,
+main .frequently .content .q5 p,
+main .frequently .content .q6 p {
+    color: var(--color);
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+main .frequently .content .q1 p:hover {
+    color: #47b2e4;
+
+
+}
+
+main .frequently .content .q2 p:hover {
+    color: #47b2e4;
+
+
+}
+
+main .frequently .content .q3 p:hover {
+    color: #47b2e4;
+
+
+}
+
+main .frequently .content .q4 p:hover {
+    color: #47b2e4;
+
+
+}
+
+main .frequently .content .q5 p:hover {
+    color: #47b2e4;
+
+
+}
+
+main .frequently .content .q6 p:hover {
+    color: #47b2e4;
+
+
+}
+
+
+
+main .frequently .content .q1 p span,
+main .frequently .content .q2 p span,
+main .frequently .content .q3 p span,
+main .frequently .content .q4 p span,
+main .frequently .content .q5 p span,
+main .frequently .content .q6 p span {
+    color: #47b2e4;
+    font-size: 32px;
+    margin-right: 20px;
+
+}
+
+
+main .frequently .content .q1 p .fa-chevron-right,
+main .frequently .content .q2 p .fa-chevron-right,
+main .frequently .content .q3 p .fa-chevron-right,
+main .frequently .content .q4 p .fa-chevron-right,
+main .frequently .content .q5 p .fa-chevron-right,
+main .frequently .content .q6 p .fa-chevron-right {
+    position: absolute;
+    right: 4%;
+    top: 45%;
+    color: #6e4d6e;
+}
+
+
+
+/* ==============================================================media frequwntly=================================================== */
+/* ==============================================================media frequwntly=================================================== */
+/* ==============================================================media frequwntly=================================================== */
+
+/* tablet */
+
+@media (max-width:768px) {
+
+    main .frequently .head h1 {
+
+
+        font-size: 29px;
+    }
+
+
+
+
+
+    main .frequently .content .q1 p,
+    main .frequently .content .q2 p,
+    main .frequently .content .q3 p,
+    main .frequently .content .q4 p,
+    main .frequently .content .q5 p,
+    main .frequently .content .q6 p {
+        color: var(--color);
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+
+    main .frequently .content .q1 p span,
+    main .frequently .content .q2 p span,
+    main .frequently .content .q3 p span,
+    main .frequently .content .q4 p span,
+    main .frequently .content .q5 p span,
+    main .frequently .content .q6 p span {
+        color: #47b2e4;
+        font-size: 20px;
+        margin-right: 8px;
+
+    }
+
+
+    main .frequently .head h1:before {
+
+        width: 350px;
+
+
+        left: 27%;
+
+    }
+
+
+
+    main .frequently .head h1:after {
+
+        width: 140px;
+
+
+        left: 41%;
+
+
+
+    }
+
+}
+
+
+/* mobile */
+
+
+@media (max-width:552px) {
+
+
+    main .frequently {
+        width: 100%;
+        height: 140vh;
+    }
+
+
+    main .frequently .head h1 {
+
+
+        font-size: 27px;
+    }
+
+
+
+    main .frequently .content .q1,
+    main .frequently .content .q2,
+    main .frequently .content .q3,
+    main .frequently .content .q4,
+    main .frequently .content .q5,
+    main .frequently .content .q6 {
+        width: 93%;
+        height: 13%;
+    }
+
+
+    main .frequently .head h1:before {
+
+        width: 220px;
+
+
+        left: 20%;
+
+    }
+
+
+
+    main .frequently .head h1:after {
+
+        width: 80px;
+
+
+        left: 41%;
+
+
+
+    }
+}
+
+
+
+
+/* ==============================================================media frequwntly=================================================== */
+/* ==============================================================media frequwntly=================================================== */
+/* ==============================================================media frequwntly=================================================== *
+
+/* ====================================================================End frequently======================================================== */
+/* ====================================================================End frequently======================================================== */
+/* ====================================================================End frequently======================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================Start contact========================================================== */
+/* ==========================================================================Start contact========================================================== */
+/* ==========================================================================Start contact========================================================== */
+
+
+main .contact {
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+}
+
+main .contact .head {
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+    padding: 1px;
+
+}
+
+
+
+
+main .contact .head h1 {
+    text-align: center;
+    margin: 20px 0px;
+    color: var(--color);
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+
+
+
+
+}
+
+main .contact .head h1:hover {
+    color: #47b2e4;
+
+
+}
+
+main .contact .head h1:before {
+    content: "";
+    height: 2px;
+    width: 150px;
+    background-color: #b6b6b6;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 20px;
+    left: 46%;
+
+}
+
+main .contact .head h1:after {
+    content: "";
+    height: 3px;
+    width: 76px;
+    background-color: #47b2e4;
+    position: absolute;
+    bottom: -15px;
+    left: 48%;
+    border-radius: 20px;
+}
+
+main .contact .head p {
+    font-size: 18px;
+    color: #887c88;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+
+main .contact .tables {
+    width: 100%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0px 20px; */
+
+}
+
+
+/* ===========================================================table1============================================================= */
+
+
+main .contact .tables .table1 {
+    width: 40%;
+    height: 90%;
+    /* background-color: aqua; */
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    /* border-radius: 20px; */
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray;
+
+
+}
+
+
+main .contact .tables .table1:hover {
+
+    border-bottom: 4px solid #47b2e4;
+    border-top: 4px solid #47b2e4;
+
+}
+
+main .contact .tables .table1 .location,
+main .contact .tables .table1 .call,
+main .contact .tables .table1 .email {
+    width: 80%;
+    height: 15%;
+    /* background-color: blueviolet; */
+
+    margin: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .contact .tables .table1 .location .icon,
+main .contact .tables .table1 .call .icon,
+main .contact .tables .table1 .email .icon {
+    width: 30%;
+    height: 90%;
+    background-color: #f1f9fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* margin: 10px 0px; */
+
+}
+
+main .contact .tables .table1 .location .icon .fa-location-dot,
+main .contact .tables .table1 .call .icon .fa-phone,
+main .contact .tables .table1 .email .icon .fa-envelope {
+    font-size: 35px;
+    color: #47b2e4;
+}
+
+
+main .contact .tables .table1 .location .content,
+main .contact .tables .table1 .call .content,
+main .contact .tables .table1 .email .content {
+    width: 70%;
+    height: 90%;
+    /* background-color: #6e4d6e; */
+    /* display: flex;
+    
+    flex-wrap: wrap; */
+
+
+}
+
+main .contact .tables .table1 .location .content span,
+main .contact .tables .table1 .call .content span,
+main .contact .tables .table1 .email .content span {
+    color: var(--color);
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+
+main .contact .tables .table1 .location .content p,
+main .contact .tables .table1 .call .content p,
+main .contact .tables .table1 .email .content p {
+    color: #6e706e;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+
+main .contact .tables .table1 .map {
+    width: 90%;
+    height: 40%;
+    /* background-color: aquamarine; */
+    margin: 0px 20px;
+}
+
+main .contact .tables .table1 .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* ===================================================================================table2==================================================== */
+
+main .contact .tables .table2 {
+    width: 50%;
+    height: 90%;
+    /* background-color: aqua; */
+
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    /* border-radius: 20px; */
+    transition-duration: 0.5s;
+
+    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray;
+
+
+
+
+}
+
+
+main .contact .tables .table2:hover {
+
+    border-bottom: 4px solid #47b2e4;
+    border-top: 4px solid #47b2e4;
+
+}
+
+main .contact .tables .table2 .section1,
+main .contact .tables .table2 .section2 {
+    width: 90%;
+    height: 14%;
+    /* background-color: #47b2e4; */
+    margin: 20px 20px;
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center; */
+    flex-wrap: wrap;
+
+}
+
+main .contact .tables .table2 .section1 .name,
+main .contact .tables .table2 .section1 .email {
+    width: 47%;
+    height: 100%;
+    /* background-color: green; */
+
+}
+
+
+main .contact .tables .table2 .section1 .name label,
+main .contact .tables .table2 .section1 .email label {
+    color: #6e446e;
+    font-size: 19px;
+    margin: 10px 0px;
+    text-align: left;
+
+}
+
+main .contact .tables .table2 .section1 .name input,
+main .contact .tables .table2 .section1 .email input {
+    border: 0.5px solid #dadada;
+    width: 90%;
+    height: 35%;
+    margin: 10px 0px;
+    box-shadow: 1px 1px 4px gray, -1px -1px 4px gray;
+}
+
+main .contact .tables .table2 .section2 label {
+    color: #6e446e;
+    font-size: 19px;
+    margin: 5px 0px;
+    text-align: left;
+
+
+}
+
+main .contact .tables .table2 .section2 input {
+    border: 1px solid #dadada;
+    width: 95%;
+    height: 35%;
+    margin: 10px 0px;
+    box-shadow: 1px 1px 4px gray, -1px -1px 4px gray;
+
+}
+
+
+main .contact .tables .table2 .section3 {
+    width: 90%;
+    height: 45%;
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+
+
+    margin: 20px 20px;
+}
+
+main .contact .tables .table2 .section3 label {
+
+    color: #6e446e;
+    font-size: 19px;
+    margin: 5px 0px;
+    text-align: left;
+
+
+}
+
+main .contact .tables .table2 .section3 input {
+    border: 1px solid #dadada;
+    width: 95%;
+    height: 75%;
+    margin: 8px 0px;
+    box-shadow: 1px 1px 4px gray, -1px -1px 4px gray;
+
+}
+
+main .contact .tables .table2 .button {
+    width: 90%;
+    height: 11%;
+    /* background-color: blue; */
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .contact .tables .table2 .button button {
+    background-color: transparent;
+    color: #47b2e4;
+    border: 1px solid #47b2e4;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+main .contact .tables .table2 .button button:hover {
+    color: white;
+    background-color: #47b2e4;
+}
+
+
+/* =============================================================Media contact============================================================== */
+/* =============================================================Media contact============================================================== */
+/* =============================================================Media contact============================================================== */
+
+/* tablet */
+
+@media (max-width:768px) {
+    main .contact .tables .table1 {
+        width: 45%;
+    }
+
+    main .contact .tables .table2 {
+        width: 53%;
+    }
+
+
+    main .contact .tables .table1 .location,
+    main .contact .tables .table1 .call,
+    main .contact .tables .table1 .email {
+        width: 89%;
+    }
+
+    main .contact .tables .table1 .map {
+        width: 92%;
+    }
+
+    main .contact .head h1:before {
+
+        width: 150px;
+
+
+        left: 40%;
+
+    }
+
+
+
+    main .contact .head h1:after {
+
+        width: 70px;
+
+
+        left: 46%;
+
+
+
+    }
+
+
+}
+
+
+
+
+/* mobile */
+
+
+@media (max-width:552px) {
+
+    main .contact {
+        width: 100%;
+        height: 160vh;
+    }
+
+
+    main .contact .head {
+        width: 100%;
+        height: 12%;
+    }
+
+
+    main .contact .tables {
+        width: 100%;
+        height: 88%;
+    }
+
+
+
+
+
+
+
+
+    main .contact .tables .table1 {
+        width: 95%;
+        height: 46%;
+
+
+
+    }
+
+
+    main .contact .tables .table2 {
+        width: 95%;
+        height: 50%;
+    }
+
+
+    main .contact .tables .table2 .button button {
+        background-color: transparent;
+        color: #47b2e4;
+        border: 1px solid #47b2e4;
+        width: 45%;
+    }
+
+
+    main .contact .head h1:before {
+
+        width: 150px;
+
+
+        left: 30%;
+
+    }
+
+
+
+    main .contact .head h1:after {
+
+        width: 60px;
+
+
+        left: 43%;
+
+
+
+    }
+
+}
+
+
+/* =============================================================Media contact============================================================== */
+/* =============================================================Media contact============================================================== */
+/* =============================================================Media contact============================================================== */
+
+
+/* ==========================================================================End contact========================================================== */
+/* ==========================================================================End contact========================================================== */
+/* ==========================================================================End contact========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============================================================================Start join====================================================== */
+/* ===============================================================================Start join====================================================== */
+/* ===============================================================================Start join====================================================== */
+
+main .join {
+    width: 100%;
+    height: 40vh;
+    background-color: #f5f6f8;
+}
+
+
+main .join .head {
+    width: 100%;
+    height: 40%;
+    /* background-color: green; */
+    padding: 1px;
+}
+
+
+
+main .join .head h1 {
+    text-align: center;
+    margin: 30px 0px;
+    color: var(--color);
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+
+
+
+
+}
+
+main .join .head h1:hover {
+    color: #47b2e4;
+
+
+}
+
+
+main .join .head p {
+    font-size: 18px;
+    color: #887c88;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+main .join .bar {
+
+    width: 100%;
+    height: 60%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+
+main .join .bar .fady {
+    width: 50%;
+    height: 27%;
+    background-color: white;
+    border-radius: 30px;
+    text-align: end;
+    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray;
+
+
+
+}
+
+
+main .join .bar .fady button {
+    width: 25%;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(66, 159, 202);
+    color: white;
+    font-size: 18px;
+
+
+}
+
+
+
+
+/* ==============================================================Media join=================================================================== */
+/* ==============================================================Media join=================================================================== */
+/* ==============================================================Media join=================================================================== */
+
+
+/* tablet */
+
+@media (max-width:768px) {
+    main .join .bar .fady {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+/* mobile */
+
+
+@media (max-width:552px) {
+
+
+    main .join {
+
+        height: 50vh;
+
+    }
+
+
+    main .join .bar .fady {
+        width: 95%;
+    }
+
+
+    main .join .bar .fady button {
+        width: 38%;
+    }
+}
+
+
+
+/* ==============================================================Media join=================================================================== */
+/* ==============================================================Media join=================================================================== */
+/* ==============================================================Media join=================================================================== */
+
+
+
+/* ===============================================================================End join====================================================== */
+/* ===============================================================================End join====================================================== */
+/* ===============================================================================End join====================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================= start footer=============================================================== */
+/* ================================================================= start footer=============================================================== */
+/* ================================================================= start footer=============================================================== */
+
+main footer {
+    width: 100%;
+    height: 40vh;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+main footer .section1 {
+    width: 25%;
+    height: 90%;
+    /* background-color: green; */
+}
+
+main footer .section1 h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: var(--color);
+    transition-duration: 0.5s;
+
+
+}
+
+main footer .section1 h2:hover {
+    color: #47b2e4;
+}
+
+main footer .section1 span {
+    color: #92938b;
+    font-size: 18px;
+}
+
+main footer .section1 span .phone,
+main footer .section1 span .email {
+    font-weight: bold;
+
+}
+
+
+
+
+
+main footer .section2 {
+    width: 70%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main footer .section2 .links,
+main footer .section2 .service,
+main footer .section2 .follow {
+    /* background-color: aqua; */
+    width: 31%;
+    height: 90%;
+}
+
+
+main footer .section2 .links h3,
+main footer .section2 .service h3,
+main footer .section2 .follow h3 {
+    color: var(--color);
+    transition-duration: 0.5s;
+
+}
+
+main footer .section2 .links h3:hover {
+    color: #47b2e4;
+}
+
+main footer .section2 .service h3:hover {
+    color: #47b2e4;
+}
+
+main footer .section2 .follow h3:hover {
+    color: #47b2e4;
+}
+
+
+main footer .section2 .links a,
+main footer .section2 .service a {
+    text-decoration: none;
+    color: #92938b;
+    margin: 10px 0px;
+    font-size: 18px;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+
+main footer .section2 .links a:hover {
+    color: #47b2e4;
+}
+
+main footer .section2 .service a:hover {
+    color: #47b2e4;
+}
+
+
+
+
+main footer .section2 .links a span,
+main footer .section2 .service a span {
+    font-size: 14px;
+    color: #47b2e4;
+}
+
+main footer .section2 .follow p {
+    font-size: 18px;
+    color: #92938b;
+    margin: 20px 0px;
+}
+
+
+main footer .section2 .follow .fa-twitter,
+main footer .section2 .follow .fa-facebook,
+main footer .section2 .follow .fa-instagram,
+main footer .section2 .follow .fa-linkedin {
+    font-size: 25px;
+    margin: 10px 10px;
+    color: #47b2e4;
+    transition: all 0.5s;
+
+
+}
+
+
+main footer .section2 .follow .fa-twitter:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main footer .section2 .follow .fa-facebook:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main footer .section2 .follow .fa-instagram:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+main footer .section2 .follow .fa-linkedin:hover {
+    transform: scale(1.2);
+    color: #37517e;
+
+
+}
+
+
+
+/* ================================================================footer media======================================================== */
+/* ================================================================footer media======================================================== */
+/* ================================================================footer media======================================================== */
+/* tablet */
+
+@media (max-width:768px) {
+    main footer {
+        width: 100%;
+        height: 45vh;
+
+    }
+
+
+
+    main footer .section2 {
+        width: 73%;
+    }
+
+    main footer .section2 .links,
+    main footer .section2 .service,
+    main footer .section2 .follow {
+        /* background-color: aqua; */
+        width: 32%;
+    }
+
+    main footer .section2 .follow .fa-twitter,
+    main footer .section2 .follow .fa-facebook,
+    main footer .section2 .follow .fa-instagram,
+    main footer .section2 .follow .fa-linkedin {
+        font-size: 23px;
+        margin: 10px 8px;
+    }
+    main footer .section1 span {
+        color: #92938b;
+        font-size: 16px;
+    }
+
+}
+
+
+/* mobile */
+
+
+@media (max-width:552px) {
+
+    main footer {
+        width: 100%;
+        height: 120vh;
+    }
+
+
+    main footer .section1 {
+        width: 80%;
+        height: 30%;
+    }
+
+    main footer .section2 {
+        width: 95%;
+        height: 68%;
+    }
+
+
+    main footer .section2 .links,
+    main footer .section2 .service,
+    main footer .section2 .follow {
+        /* background-color: aqua; */
+        width: 49%;
+        height: 42%;
+        margin: 10px 0px;
+    }
+}
+
+
+/* ================================================================footer media======================================================== */
+/* ================================================================footer media======================================================== */
+/* ================================================================footer media======================================================== */
+
+
+/* ================================================================= End footer=============================================================== */
+/* ================================================================= End footer=============================================================== */
+/* ================================================================= End footer=============================================================== */
