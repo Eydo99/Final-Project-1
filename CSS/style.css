@@ -670,13 +670,22 @@ main .Aboutus .content .content2 button:hover {
 /* mobile */
 @media (max-width:552px) {
     main .Aboutus {
-        height: 75vh;
+        height: 92vh;
+    }
+    main .Aboutus .head{
+        height: 5%;
+    }
+
+
+    main .Aboutus .content{
+        height: 75%;
     }
 
     main .Aboutus .content .content1 {
         width: 85%;
-        height: 60%;
+        height: 50%;
     }
+
 
     main .Aboutus .content .content1 p {
         font-size: 14px;
@@ -953,6 +962,11 @@ main .threebars .img img {
     main .threebars .content .block2 p span,
     main .threebars .content .block3 p span {
         font-size: 13px;
+    }
+
+    main .threebars .content .block1 p .fa-chevron-right, main .threebars .content .block2 p .fa-chevron-right, main .threebars .content .block3 p .fa-chevron-right {
+       
+        right: 10px;
     }
 }
 
