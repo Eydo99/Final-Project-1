@@ -672,12 +672,13 @@ main .Aboutus .content .content2 button:hover {
     main .Aboutus {
         height: 92vh;
     }
-    main .Aboutus .head{
+
+    main .Aboutus .head {
         height: 5%;
     }
 
 
-    main .Aboutus .content{
+    main .Aboutus .content {
         height: 75%;
     }
 
@@ -930,17 +931,17 @@ main .threebars .img img {
 /* mobile */
 @media (max-width:552px) {
     main .threebars {
-        height: 130vh;
+        height: 120vh;
     }
 
     main .threebars .content {
         width: 90%;
-        height: 50%;
+        height: 55%;
     }
 
     main .threebars .img {
         width: 90%;
-        height: 40%;
+        height: 30%;
         order: -1;
     }
 
@@ -952,7 +953,9 @@ main .threebars .img img {
         font-size: 25px;
     }
 
-    main .threebars .content .block1 p, main .threebars .content .block2 p, main .threebars .content .block3 p {
+    main .threebars .content .block1 p,
+    main .threebars .content .block2 p,
+    main .threebars .content .block3 p {
         font-size: 12px;
         width: 71%;
     }
@@ -963,8 +966,10 @@ main .threebars .img img {
         font-size: 13px;
     }
 
-    main .threebars .content .block1 p .fa-chevron-right, main .threebars .content .block2 p .fa-chevron-right, main .threebars .content .block3 p .fa-chevron-right {
-       
+    main .threebars .content .block1 p .fa-chevron-right,
+    main .threebars .content .block2 p .fa-chevron-right,
+    main .threebars .content .block3 p .fa-chevron-right {
+
         right: 10px;
     }
 }
@@ -1145,6 +1150,7 @@ main .survey .content .block7 .mlyan {
     .survey {
         height: 120vh;
         /* background-color: red; */
+        margin: 30px 0px;
     }
 
     main .survey .content .block4,
@@ -1157,7 +1163,7 @@ main .survey .content .block7 .mlyan {
 
     .survey .img {
         width: 90%;
-        height: 40%;
+        height: 30%;
     }
 
     .survey .content {
@@ -2269,12 +2275,12 @@ main .portfolio .content .bloc3 .img9:hover .klam9 {
     }
 
 
-    main .portfolio .content{
+    main .portfolio .content {
         height: 94%;
     }
 
 
-    main .portfolio .content .bloc1{
+    main .portfolio .content .bloc1 {
         width: 90%;
         height: 30%;
     }
@@ -2296,7 +2302,7 @@ main .portfolio .content .bloc3 .img9:hover .klam9 {
 
     main .portfolio .content .bloc1 .img2 {
 
-       
+
         height: 60%;
     }
 
@@ -2311,6 +2317,7 @@ main .portfolio .content .bloc3 .img9:hover .klam9 {
         height: 45%;
 
     }
+
     main .portfolio .content .bloc2 .img5 {
         height: 24%;
         display: block !important;
@@ -2320,7 +2327,7 @@ main .portfolio .content .bloc3 .img9:hover .klam9 {
 
 
 
-    main .portfolio .content .bloc3 .img6{
+    main .portfolio .content .bloc3 .img6 {
         display: block !important;
         height: 25%;
     }
@@ -2913,6 +2920,14 @@ main .team .content .amanda .description .span2:before {
 
     main .team .head {
         height: 15%;
+    }
+
+    main .team .content .walter .img,
+    main .team .content .sarah .img,
+    main .team .content .william .img,
+    main .team .content .amanda .img {
+        width: 35%;
+        height: 60%;
     }
 
 
@@ -3569,6 +3584,7 @@ main .testimonials .slogan p span {
     main .testimonials {
         width: 100%;
         height: 225vh;
+        margin: 50px 0px;
     }
 
     main .testimonials .head {
@@ -3591,6 +3607,16 @@ main .testimonials .slogan p span {
     main .testimonials .staff .memb5 {
         width: 49%;
         height: 30%;
+    }
+
+
+    main .testimonials .staff .memb1 .img,
+    main .testimonials .staff .memb2 .img,
+    main .testimonials .staff .memb3 .img,
+    main .testimonials .staff .memb4 .img,
+    main .testimonials .staff .memb5 .img {
+        width: 80%;
+        height: 35%;
     }
 
     main .testimonials .slogan {
@@ -4414,6 +4440,7 @@ main .contact .tables .table2 .button button:hover {
     main .contact {
         width: 100%;
         height: 160vh;
+        margin: 20px 0px;
     }
 
 
@@ -4478,6 +4505,13 @@ main .contact .tables .table2 .button button:hover {
 
 
 
+    }
+
+    main .contact .tables .table1 .location .icon .fa-location-dot,
+    main .contact .tables .table1 .call .icon .fa-phone,
+    main .contact .tables .table1 .email .icon .fa-envelope {
+        font-size: 30px;
+        color: #47b2e4;
     }
 
 }
@@ -4892,6 +4926,7 @@ main footer .section2 .follow .fa-linkedin:hover {
         font-size: 23px;
         margin: 10px 8px;
     }
+
     main footer .section1 span {
         color: #92938b;
         font-size: 16px;
